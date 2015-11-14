@@ -1,0 +1,20 @@
+@font-face {
+      font-family: "Fira";
+      src: url(./fira-sans/FiraSans-Book.otf);
+      font-weight: normal;
+}
+
+html {
+  font-family: 'Fira', serif;
+  -webkit-font-feature-settings: "liga" 1, "onum" 1, "kern" 1;
+  -moz-font-feature-settings: "liga" 1, "onum" 1, "kern" 1;
+  font-feature-settings: "liga" 1, "onum" 1, "kern" 1;
+}
+
+.smcp {
+  font-variant: small-caps;
+}
+
+p::first-letter {
+  font-size: 2em;
+}
